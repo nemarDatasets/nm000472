@@ -1,0 +1,36 @@
+{
+  "Name": "Zenodo-22150094: example stereo-EEG (sEEG) recording with one clinically confirmed seizure",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "AI-is-out-there"
+  ],
+  "HowToAcknowledge": "Cite the Zenodo record doi:10.5281/zenodo.22150094 (AI-is-out-there, version 2 (MRI added), 2026-08-28).",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5281/zenodo.22150094"
+  ],
+  "EthicsApprovals": [
+    "n/a: the Zenodo record does not state an ethics approval; the recording was shared by its depositor under CC-BY-4.0, see the record"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.22150094",
+      "URL": "https://zenodo.org/records/22150094",
+      "Version": "Zenodo version 2 (MRI added) (2026-08-28)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "o5c_B_conv_generic12.py",
+      "Description": "Byte-identical copy of the released EDF+ file into iEEG-BIDS with channels/events/electrodes sidecars derived from its header and annotations; no signal processing. Code in code/."
+    }
+  ],
+  "Keywords": [
+    "stereo-EEG",
+    "SEEG",
+    "epilepsy",
+    "seizure",
+    "HFO"
+  ]
+}

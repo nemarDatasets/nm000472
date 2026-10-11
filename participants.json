@@ -1,0 +1,11 @@
+{
+  "age": {
+    "Description": "not released"
+  },
+  "sex": {
+    "Description": "not released"
+  },
+  "group": {
+    "Description": "clinical population stated by the record title (sEEG monitoring with one clinically confirmed seizure)"
+  }
+}

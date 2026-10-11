@@ -1,0 +1,134 @@
+{
+  "created": "2026-08-28T20:05:12.442652+00:00",
+  "modified": "2026-08-28T20:05:12.716603+00:00",
+  "id": 22150094,
+  "conceptrecid": "21967992",
+  "doi": "10.5281/zenodo.22150094",
+  "conceptdoi": "10.5281/zenodo.21967992",
+  "doi_url": "https://doi.org/10.5281/zenodo.22150094",
+  "metadata": {
+    "title": "example sEEG (stereo EEG is a specific subtype of intracranial EEG + MRI) with clinical confirmed one seizure",
+    "doi": "10.5281/zenodo.22150094",
+    "publication_date": "2026-08-28",
+    "description": "<div>\n<div># Dataset info:</div>\n<div>'sEEG-HFOs-8.edf': seizure 17:27:11, clinicaly confirmed 17:27:14</div>\n<div>MRI T1 and T2</div>\n</div>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "AI-is-out-there",
+        "affiliation": null
+      }
+    ],
+    "dates": [
+      {
+        "type": "created",
+        "description": "initial load"
+      }
+    ],
+    "version": "2 (MRI added)",
+    "custom": {
+      "code:codeRepository": "https://github.com/D2718281828nis/BioMedAI-sEEG-core-of-epilepsy",
+      "code:programmingLanguage": [
+        {
+          "id": "python",
+          "title": {
+            "en": "Python"
+          }
+        }
+      ]
+    },
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 1,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "21967992"
+          }
+        }
+      ]
+    }
+  },
+  "title": "example sEEG (stereo EEG is a specific subtype of intracranial EEG + MRI) with clinical confirmed one seizure",
+  "links": {
+    "self": "https://zenodo.org/api/records/22150094",
+    "self_html": "https://zenodo.org/records/22150094",
+    "preview_html": "https://zenodo.org/records/22150094?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.22150094",
+    "self_doi": "https://doi.org/10.5281/zenodo.22150094",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.22150094",
+    "reserve_doi": "https://zenodo.org/api/records/22150094/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/21967992",
+    "parent_html": "https://zenodo.org/records/21967992",
+    "parent_doi": "https://doi.org/10.5281/zenodo.21967992",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.21967992",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:22150094/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:22150094/sequence/default",
+    "files": "https://zenodo.org/api/records/22150094/files",
+    "media_files": "https://zenodo.org/api/records/22150094/media-files",
+    "latest": "https://zenodo.org/api/records/22150094/versions/latest",
+    "latest_html": "https://zenodo.org/records/22150094/latest",
+    "versions": "https://zenodo.org/api/records/22150094/versions",
+    "draft": "https://zenodo.org/api/records/22150094/draft",
+    "access_links": "https://zenodo.org/api/records/22150094/access/links",
+    "access_grants": "https://zenodo.org/api/records/22150094/access/grants",
+    "access_users": "https://zenodo.org/api/records/22150094/access/users",
+    "access_request": "https://zenodo.org/api/records/22150094/access/request",
+    "access": "https://zenodo.org/api/records/22150094/access",
+    "communities": "https://zenodo.org/api/records/22150094/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/22150094/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/22150094/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/22150094/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/22150094/quota-increase",
+    "requests": "https://zenodo.org/api/records/22150094/requests"
+  },
+  "updated": "2026-08-28T20:05:12.716603+00:00",
+  "recid": "22150094",
+  "revision": 3,
+  "files": [
+    {
+      "id": "e8d6ea53-f94e-4232-83f7-021fc17d7ce3",
+      "key": "sEEG-HFOs-8.edf",
+      "size": 743340544,
+      "checksum": "md5:c83e85316860502327f6b7ed7ccb15d2",
+      "links": {
+        "self": "https://zenodo.org/api/records/22150094/files/sEEG-HFOs-8.edf/content"
+      }
+    },
+    {
+      "id": "5d18ae27-b04e-486a-b995-6fdea40d6d22",
+      "key": "MRI-with-electrodes.zip",
+      "size": 61400414,
+      "checksum": "md5:72c066d25ba9f83faaa61a943b7e85b3",
+      "links": {
+        "self": "https://zenodo.org/api/records/22150094/files/MRI-with-electrodes.zip/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "1228975"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 4,
+    "unique_downloads": 4,
+    "views": 80,
+    "unique_views": 76,
+    "version_downloads": 1,
+    "version_unique_downloads": 1,
+    "version_unique_views": 62,
+    "version_views": 62
+  },
+  "state": "done",
+  "submitted": true
+}

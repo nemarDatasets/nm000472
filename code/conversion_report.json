@@ -1,0 +1,83 @@
+{
+  "cand_id": "src-generic-12",
+  "converter": "harness/o5c_B_conv_generic12.py (ieeg-nemar-20261005 campaign, lane o5c-B)",
+  "source_edf": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/open500/src-generic-12/files/sEEG-HFOs-8.edf",
+  "licence": {
+    "value": "CC-BY-4.0",
+    "read_from": "zenodo api metadata.license.id"
+  },
+  "record_description": " \n # Dataset info: \n 'sEEG-HFOs-8.edf': seizure 17:27:11, clinicaly confirmed 17:27:14 \n MRI T1 and T2 \n ",
+  "edf_header": {
+    "patient": "patient_2_3_17 X 01-JAN-1999 name",
+    "recording": "Startdate 01-JAN-2019 01.00.00 X X X",
+    "startdate": "01.01.19",
+    "starttime": "01.00.00",
+    "n_records": 14095,
+    "rec_dur": 1.0,
+    "ns": 103,
+    "reserved": "EDF+C",
+    "file_bytes": 743340544,
+    "expected_bytes": 743340544
+  },
+  "n_annotations": 3,
+  "annotation_texts_unique": [
+    "где тут начало?",
+    "клиника",
+    "приступ + БТКП"
+  ],
+  "annotation_flags": [],
+  "annotation_encoding": "cp1251 (Russian)",
+  "identification_fields_placeholders": true,
+  "edf_copy": {
+    "src": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/open500/src-generic-12/files/sEEG-HFOs-8.edf",
+    "dst": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/o5c_B/src-generic-12/bids/sub-01/ieeg/sub-01_task-seizure_ieeg.edf",
+    "bytes": 743340544,
+    "sha256": "4ba7847702aee91ab70cb89c1d99550386e6ac9b4f13232776133a133b0b6bf3",
+    "sha256_src": "4ba7847702aee91ab70cb89c1d99550386e6ac9b4f13232776133a133b0b6bf3",
+    "identical": true
+  },
+  "edf_mode": "byte-identical copy",
+  "channels": {
+    "n": 102,
+    "seeg": 100,
+    "misc": 2,
+    "electrodes": [
+      "R",
+      "FP",
+      "FD",
+      "PM",
+      "CC",
+      "SA",
+      "PA",
+      "CR'",
+      "CC'",
+      "PM'",
+      "SA'",
+      "PA'"
+    ],
+    "sfreq": 256.0
+  },
+  "roundtrip": {
+    "mne_n_times": 3608320,
+    "expected_n_times": 3608320,
+    "mne_n_ch": 102,
+    "channels": {
+      "EEG R1": {
+        "max_abs_diff_uV": 3.410605131648481e-13,
+        "n": 5120
+      },
+      "EEG FP1": {
+        "max_abs_diff_uV": 4.547473508864641e-13,
+        "n": 5120
+      },
+      "EEG PA'8": {
+        "max_abs_diff_uV": 3.410605131648481e-13,
+        "n": 5120
+      }
+    },
+    "ok": true
+  },
+  "hours": 3.915277777777778,
+  "subjects": 1,
+  "n_recordings": 1
+}

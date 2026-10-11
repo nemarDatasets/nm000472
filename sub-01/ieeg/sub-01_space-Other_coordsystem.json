@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No electrode coordinates are released as numbers. The Zenodo record contains a post-implantation MRI (DICOM T1/T2 with the electrodes visible) that is not defaced; it is withheld from this BIDS dataset for privacy and can be obtained from the Zenodo record (MRI-with-electrodes.zip). x, y, z = n/a."
+}

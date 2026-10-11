@@ -1,0 +1,19 @@
+{
+  "onset": {
+    "Description": "EDF+ annotation onset, seconds from the start of the file",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "EDF+ annotation duration (n/a when the annotation has none)",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "onset x 256 Hz, rounded"
+  },
+  "trial_type": {
+    "Description": "EDF+ annotation text, verbatim (Russian, stored in the file as Windows-1251 and decoded here to UTF-8; the release does not document the annotation vocabulary)"
+  },
+  "trial_type_english": {
+    "Description": "English rendering of the annotation added by the converter (not part of the release); n/a if not translated"
+  }
+}

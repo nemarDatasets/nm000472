@@ -1,0 +1,34 @@
+{
+  "TaskName": "seizure",
+  "SamplingFrequency": 256.0,
+  "PowerLineFrequency": "n/a",
+  "SoftwareFilters": "n/a",
+  "iEEGReference": "n/a",
+  "RecordingDuration": 14095.0,
+  "RecordingType": "continuous",
+  "Manufacturer": "n/a",
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 100,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 2,
+  "TriggerChannelCount": 0,
+  "TaskDescription": "Clinical stereo-EEG monitoring segment containing one clinically confirmed seizure (Zenodo record: \"seizure 17:27:11, clinicaly confirmed 17:27:14\"; the EDF clock fields are anonymised placeholders, so the seizure time is not recoverable from the header; see events.tsv for the annotations present in the file).",
+  "Instructions": "n/a",
+  "InstitutionName": "n/a",
+  "ElectrodeManufacturer": "n/a",
+  "HardwareFilters": {
+    "EDF prefilter field, sEEG channels": {
+      "HighpassHz": 0.15,
+      "LowpassHz": 67
+    },
+    "EDF prefilter field, marker channels": {
+      "HighpassHz": 0,
+      "LowpassHz": 67
+    }
+  },
+  "ElectricalStimulation": false
+}
