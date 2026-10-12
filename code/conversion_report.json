@@ -21,9 +21,9 @@
   },
   "n_annotations": 3,
   "annotation_texts_unique": [
-    "где тут начало?",
-    "клиника",
-    "приступ + БТКП"
+    "\u0433\u0434\u0435 \u0442\u0443\u0442 \u043d\u0430\u0447\u0430\u043b\u043e?",
+    "\u043a\u043b\u0438\u043d\u0438\u043a\u0430",
+    "\u043f\u0440\u0438\u0441\u0442\u0443\u043f + \u0411\u0422\u041a\u041f"
   ],
   "annotation_flags": [],
   "annotation_encoding": "cp1251 (Russian)",
@@ -32,8 +32,8 @@
     "src": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/open500/src-generic-12/files/sEEG-HFOs-8.edf",
     "dst": "/voyager/ceph/groups/sdp190/bpinto/ieeg-nemar-20261005/work/o5c_B/src-generic-12/bids/sub-01/ieeg/sub-01_task-seizure_ieeg.edf",
     "bytes": 743340544,
-    "sha256": "4ba7847702aee91ab70cb89c1d99550386e6ac9b4f13232776133a133b0b6bf3",
-    "sha256_src": "4ba7847702aee91ab70cb89c1d99550386e6ac9b4f13232776133a133b0b6bf3",
+    "sha256": "16d2be49ccae55379531286de94768f6321ff3ac71860b1c65e41b2a96b502c5",
+    "sha256_src": "16d2be49ccae55379531286de94768f6321ff3ac71860b1c65e41b2a96b502c5",
     "identical": true
   },
   "edf_mode": "byte-identical copy",
@@ -79,5 +79,6 @@
   },
   "hours": 3.915277777777778,
   "subjects": 1,
-  "n_recordings": 1
+  "n_recordings": 1,
+  "privacy_correction": "2026-10-12: EDF patient-code and patient-name header fields were set to X (no field values reproduced here); checksums above reflect the scrubbed file."
 }

@@ -8,7 +8,7 @@ given in the record; this README does not add any.
 
 ## Content
 - `sub-01/ieeg/sub-01_task-seizure_ieeg.edf`: the released EDF+ file, byte-identical copy (sha256
-  4ba7847702aee91ab70cb89c1d99550386e6ac9b4f13232776133a133b0b6bf3). 102 signals (100 sEEG contacts labelled `EEG <electrode><contact>`,
+  16d2be49ccae55379531286de94768f6321ff3ac71860b1c65e41b2a96b502c5). 102 signals (100 sEEG contacts labelled `EEG <electrode><contact>`,
   2 marker inputs `MKR1+`/`MKR2+`) at 256 Hz, 3.92 h (14095 one-second records), physical range
   +-3200 uV, 16-bit. The EDF identification fields are the depositor's placeholders (`patient_2_3_17 X 01-JAN-1999 name`, `Startdate 01-JAN-2019 01.00.00 X X X`),
   so the recording date/time in the header is not the real one.
@@ -28,3 +28,4 @@ given in the record; this README does not add any.
 ## Provenance
 Converted by the ieeg-nemar-20261005 campaign (lane o5c-B) with `code/o5c_B_conv_generic12.py`; the EDF data records are
 unchanged. `code/conversion_report.json` lists the header fields, the annotation texts and the checksums.
+Note: the EDF patient-code and patient-name header fields were set to X on 2026-10-12 as part of header de-identification; no field values are reproduced here.
