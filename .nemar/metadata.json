@@ -1,45 +1,14 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Zenodo-22150094: example stereo-EEG (sEEG) recording with one clinically confirmed seizure",
+  "description": "A single stereo-EEG (sEEG) recording from one patient undergoing clinical intracranial monitoring, containing one clinically confirmed seizure with bilateral tonic-clonic evolution. The EDF+ file contains 100 sEEG contacts across 12 electrodes plus 2 marker channels, sampled at 256 Hz over about 3.9 hours. Annotations mark the seizure onset and clinical manifestation. Associated MRI (T1/T2) is available from the original Zenodo record but is not included here.",
+  "methods_description": "Clinical intracranial sEEG recorded at 256 Hz (16-bit, ±3200 µV) with 100 contacts and 2 marker inputs, stored as EDF+. The file was copied byte-identically into iEEG-BIDS with channels, events and electrodes sidecars derived from the header and annotations; no signal processing was applied.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "AI-is-out-there": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.5281/zenodo.22150094",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000472",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000472",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "title": "Zenodo-22150094: example stereo-EEG (sEEG) recording with one clinically confirmed seizure",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "sizes": [
-    "709 MB (2 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".json",
-    ".py",
-    ".tsv"
-  ],
-  "description": "A single stereo-EEG (sEEG) recording from one patient undergoing clinical intracranial monitoring, containing one clinically confirmed seizure with bilateral tonic-clonic evolution. The EDF+ file has 100 sEEG contacts across 12 electrodes plus 2 marker channels, sampled at 256 Hz for about 3.9 hours. Annotations mark the seizure and its clinical onset. The dataset is a BIDS iEEG conversion of a Zenodo deposit.",
-  "methods_description": "The released EDF+ file was copied byte-identically into iEEG-BIDS, with channels, events and electrodes sidecars derived from the file header and annotations. No signal processing was applied. The recording has 102 signals (100 sEEG contacts, 2 marker inputs) at 256 Hz, with a 16-bit range of +-3200 uV.",
   "keywords": [
     {
       "term": "stereo-EEG"
@@ -58,6 +27,38 @@
     {
       "term": "high-frequency oscillations"
     }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.22150094",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000472",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000472",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "1.38 GB (3 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".py",
+    ".tsv",
+    ".yml"
   ],
   "source_hash": "ab0587d5961cbfcc744dd9372f5d1048f69f586a234fc463e20c418f94017620"
 }
