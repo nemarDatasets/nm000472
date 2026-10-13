@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Zenodo-22150094: example stereo-EEG (sEEG) recording with one clinically confirmed seizure",
-  "description": "A single stereo-EEG (sEEG) recording from one patient undergoing clinical intracranial monitoring, containing one clinically confirmed seizure with bilateral tonic-clonic evolution. The EDF+ file contains 100 sEEG contacts across 12 electrodes plus 2 marker channels, sampled at 256 Hz over about 3.9 hours. Annotations mark the seizure onset and clinical manifestation. Associated MRI (T1/T2) is available from the original Zenodo record but is not included here.",
-  "methods_description": "Clinical intracranial sEEG recorded at 256 Hz (16-bit, ±3200 µV) with 100 contacts and 2 marker inputs, stored as EDF+. The file was copied byte-identically into iEEG-BIDS with channels, events and electrodes sidecars derived from the header and annotations; no signal processing was applied.",
+  "description": "A stereo-EEG (sEEG) recording from one patient undergoing clinical intracranial monitoring, containing a single clinically confirmed seizure with bilateral tonic-clonic evolution. The recording has 100 sEEG contacts across 12 electrodes plus 2 marker channels, sampled at 256 Hz for about 3.9 hours. Annotations mark the clinical onset and seizure. It is shared in iEEG-BIDS format from a Zenodo deposit.",
+  "methods_description": "Clinical sEEG recorded as EDF+ at 256 Hz (102 signals: 100 sEEG contacts and 2 marker inputs, 16-bit, physical range ±3200 µV). The original EDF+ file was copied byte-identically into iEEG-BIDS with channels, events and electrodes sidecars derived from its header and annotations; no signal processing was applied. MRI (T1/T2) with implanted electrodes exists in the source record but is not redistributed.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -26,6 +26,9 @@
     },
     {
       "term": "high-frequency oscillations"
+    },
+    {
+      "term": "iEEG-BIDS"
     }
   ],
   "related_identifiers": [
@@ -56,9 +59,10 @@
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".py",
     ".tsv",
     ".yml"
   ],
-  "source_hash": "ab0587d5961cbfcc744dd9372f5d1048f69f586a234fc463e20c418f94017620"
+  "source_hash": "cb44fbe7fb0ad656e07abd8e5a88d90aa28ac55371edc50c2a2a879bce81358e"
 }
