@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Zenodo-22150094: example stereo-EEG (sEEG) recording with one clinically confirmed seizure",
-  "description": "A stereo-EEG (sEEG) recording from one patient undergoing clinical intracranial monitoring, containing a single clinically confirmed seizure with bilateral tonic-clonic evolution. The recording has 100 sEEG contacts across 12 electrodes plus 2 marker channels, sampled at 256 Hz for about 3.9 hours. Annotations mark the clinical onset and seizure. It is shared in iEEG-BIDS format from a Zenodo deposit.",
-  "methods_description": "Clinical sEEG recorded as EDF+ at 256 Hz (102 signals: 100 sEEG contacts and 2 marker inputs, 16-bit, physical range ±3200 µV). The original EDF+ file was copied byte-identically into iEEG-BIDS with channels, events and electrodes sidecars derived from its header and annotations; no signal processing was applied. MRI (T1/T2) with implanted electrodes exists in the source record but is not redistributed.",
+  "title": "AIIsOutThere-2026-example",
+  "description": "A stereo-EEG (sEEG) recording from one patient undergoing clinical intracranial monitoring, containing a clinically confirmed seizure with bilateral tonic-clonic evolution. The recording comprises 100 sEEG contacts across 12 electrodes plus 2 marker inputs, sampled at 256 Hz over about 3.9 hours. Annotations mark the clinical onset and seizure. The data are a BIDS (iEEG-BIDS) conversion of a publicly shared Zenodo deposit.",
+  "methods_description": "Clinical sEEG recorded as EDF+ at 256 Hz (102 signals, 16-bit, about 3.92 h). The original EDF+ file was copied byte-identically into iEEG-BIDS, with channels, events and electrodes sidecars derived from its header and annotations. No signal processing was applied.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -64,5 +64,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "cb44fbe7fb0ad656e07abd8e5a88d90aa28ac55371edc50c2a2a879bce81358e"
+  "source_hash": "4c0909fe83ac70fd68984513224af131bf9b31535b978a04267d8133510925a7"
 }
