@@ -31,3 +31,19 @@ given in the record; this README does not add any.
 Converted by the ieeg-nemar-20261005 campaign (lane o5c-B) with `code/o5c_B_conv_generic12.py`; the EDF data records are
 unchanged. `code/conversion_report.json` lists the header fields, the annotation texts and the checksums.
 Note: the EDF patient-code and patient-name header fields were set to X on 2026-10-12 as part of header de-identification; no field values are reproduced here.
+
+## Reading with MNE / MNE-BIDS (added 2026-10-17, version 1.0.2)
+
+The three EDF+ annotations are stored in the file as Windows-1251 bytes (Russian text), while MNE decodes EDF+
+annotations as UTF-8 by default. `mne_bids.read_raw_bids(bids_path)` and `mne.io.read_raw_edf(...)` therefore stop with
+"Encountered invalid byte in at least one annotations channel". Pass the encoding:
+
+```python
+from mne_bids import BIDSPath, read_raw_bids
+bp = BIDSPath(root=".", subject="01", task="seizure", datatype="ieeg", suffix="ieeg", extension=".edf")
+raw = read_raw_bids(bp, extra_params=dict(encoding="cp1251"))   # annotations then come from events.tsv (UTF-8)
+# or: mne.io.read_raw_edf("sub-01/ieeg/sub-01_task-seizure_ieeg.edf", encoding="cp1251")
+```
+
+The EDF file is not modified by this change (its data records, including the annotation bytes, are as released;
+only the de-identified header fields differ, see Provenance). `events.tsv` already holds the same three annotations decoded to UTF-8, with an English rendering.

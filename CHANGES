@@ -1,0 +1,9 @@
+1.0.2 2026-10-17
+  - README.md: section "Reading with MNE / MNE-BIDS": the EDF+ annotations are Windows-1251, so read_raw_bids needs extra_params=dict(encoding="cp1251"). EDF file and events.tsv unchanged.
+  - CHANGES: file added (versions 1.0.0 and 1.0.1 are the earlier NEMAR releases; see the git tags).
+
+1.0.1
+  - NEMAR release (see git tag v1.0.1).
+
+1.0.0
+  - Initial NEMAR release (see git tag v1.0.0).
